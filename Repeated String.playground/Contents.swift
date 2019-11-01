@@ -89,7 +89,7 @@ func repeatedString(s: String, n: Int) -> Int {
 
     let remainder = n % sCharacterCount
     
-    for num in stride(from: 1, through: remainder, by: 1) {
+    for num in 0...remainder { // could also use this instead of 0...remainder stride(from: 1, through: remainder, by: 1) {
         if arrayOfIndex.contains(num) {
             totalOccurrences += 1
         }
