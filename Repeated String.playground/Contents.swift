@@ -34,7 +34,7 @@ import UIKit
  Because all of the first  letters of the infinite string are a, we print  on a new line.
  */
 
-
+// Not very efficient and doesn't work for all cases
 //func repeatedString(s: String, n: Int) -> Int {
 //    let sAsArray = Array(s)
 //    var occurrences = 0
